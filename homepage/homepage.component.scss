@@ -1,0 +1,72 @@
+// .body
+// {
+//     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//     font-size: medium;
+//     font-weight: 300;
+//     list-style-position: outside;
+    
+   
+
+// }
+.centered 
+{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: blue;
+    
+}
+.section-title
+{
+    border-bottom: 2px solid blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: black;
+    margin-top: 50%;
+    
+}
+.member
+{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: blue;
+    
+}
+.section-member
+{
+    border-bottom: 2px solid blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    text-align: center;
+    
+}
+.home
+{
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    background-image: url("../../assets/images/homes.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    color: transparent;
+    top: 17%;
+    position: absolute;
+    image-resolution: 100%;
+}
