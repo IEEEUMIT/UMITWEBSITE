@@ -8,16 +8,16 @@
    
 
 }
-.centered 
-{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: blue;
+// .centered 
+// {
+//     position: absolute;
+//     top: 30%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     text-align: center;
+//     color: blue;
     
-}
+// }
 .section-title
 {
     border-bottom: 2px solid black;
@@ -29,25 +29,39 @@
     margin-right: 5%;
     background-color: white;
     width: 100%;
+    
 }
 .section-bombay
 {
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 80px;
-    padding-top: 15px;
+    // border-bottom: 2px solid black;
+    // border-top: 2px solid black;
+    font-size: 23px;
+    font-family: 'Slabo 27px', serif;
+    padding-bottom: 170px;
+    padding-top: 40px;
     margin-bottom: 50px;
     margin-top: 1mm;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 100px;
-    align-self: left;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    height: 90px;
+    // align-self: left;
+    width: 100%;
+    background-color: white;
+    text-align: justify;
+    // background-image: url("../../assets/images/output-onlinepngtools\ \(3\).png");
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // background-size: 100% 100%;
+    // background-position: right;
+    
+
 }
 .xyz
 {
-    background-color: pink;
+    background-color: lightblue;
+    background-image: url("../../assets/images/homes.jpg");
+    background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -70,11 +84,60 @@
     height: 100%;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-.double-line
+// .double-line
+// {
+//     width: 100%;
+//     height: 3px;
+//     border-top: solid darkblue ;
+//     border-bottom: solid darkblue  ;
+    
+    
+// }
+.what
 {
-    width: 100%;
-    height: 3px;
-    border-top: solid black thin;
-    border-bottom: solid black thin;
+    color: blue;
+    font-family: sans-serif;
+    text-align: center;
+}
+.ground
+{
+    width: 90%;
+    height: 30%;
+    margin-left: 60%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family:  'Slabo 27px', serif;
+    top: 150%;
+}
+.image
+{
+    background-image: url("../../assets/images/output-onlinepngtools\ \(3\).png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-position: left;
+    color: transparent;
+    width: 50%;
+    height: 90%;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    top: 100%;
+    margin-left: 5%;
+    
+}
+.saaho
+{
+    background-image: url("../../assets/images/pastel.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: transparent;
+    height:90%;
+    width:100%;
 }
