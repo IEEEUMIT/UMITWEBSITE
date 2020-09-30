@@ -1,16 +1,19 @@
 .main
 {
      min-height: 40vh ;
+     width: 100vw;
+     
      
 }
 .nav
 {
-    position: absolute;
+    position: fixed;
     margin: 0;
-    height: 110px;
-    width: 100%;
-    background-color: beige;
+    height: 20vh;
+    width: 100vw;
+    background-color: white;
     display: flex;
+    top: 0;
 }
 .leftnav
 {
@@ -28,19 +31,25 @@
     display: flex;
     justify-content: space-evenly;
     
+    
 }
 .navtext
 {
   
-    width: 100%;
+    width: fit-content;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 150%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: darken(rgb(245, 220, 233), 10%);
+    background: white;
+    color: black;
 
+}
+.chiu
+{
+    color: black;
 }
 .logo
 {

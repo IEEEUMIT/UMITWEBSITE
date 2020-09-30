@@ -1,11 +1,17 @@
-.body
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    font-weight: 300;
-    list-style-position: outside;
+// .body
+// {
+//     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//     font-size: medium;
+//     font-weight: 300;
+//     list-style-position: outside;
     
    
+
+// }
+.main
+{
+    width: 100vw;
+    
 
 }
 // .centered 
@@ -20,7 +26,7 @@
 // }
 .section-title
 {
-    border-bottom: 2px solid black;
+    // border-bottom: 2px solid black;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 15px;
@@ -29,52 +35,50 @@
     margin-right: 5%;
     background-color: white;
     width: 100%;
+    margin-bottom: 0%;
     
 }
 .section-bombay
 {
     // border-bottom: 2px solid black;
     // border-top: 2px solid black;
-    font-size: 23px;
+    // font-size: 23px;
     font-family: 'Slabo 27px', serif;
-    padding-bottom: 170px;
-    padding-top: 40px;
-    margin-bottom: 50px;
-    margin-top: 1mm;
-    // margin-left: 5%;
-    // margin-right: 5%;
-    height: 90px;
+    
+    height: 40vh;
     // align-self: left;
-    width: 100%;
+    width: 100vw;
     background-color: white;
-    text-align: justify;
+    // text-align: justify;
     // background-image: url("../../assets/images/output-onlinepngtools\ \(3\).png");
-    // display: flex;
+    display: flex;
     // flex-direction: column;
     // justify-content: center;
     // background-size: 100% 100%;
     // background-position: right;
+    margin-top: 0%;
+    
     
 
 }
 .xyz
 {
     background-color: lightblue;
-    background-image: url("../../assets/images/homes.jpg");
+    background-image: url("../../assets/images/Capture.PNG");
     background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
     position: fixed;
     top: 0;
-    text-align: right;
-    font-size: 500%;
+    // text-align: right;
+    // font-size: 500%;
     z-index: -1;
     overflow-y: hidden;
 }
 .abc
 {
     width: 100%;
-    height: 30vh;
+    height: 70vh;
     font-size: 200%;
     color: white;
 }
@@ -88,15 +92,16 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-// .double-line
-// {
-//     width: 100%;
-//     height: 3px;
-//     border-top: solid darkblue ;
-//     border-bottom: solid darkblue  ;
+.double-line
+{
+    width: 100%;
+    height: 3px;
+    border-top: solid darkblue ;
+    border-bottom: solid darkblue  ;
+
     
     
-// }
+}
 .what
 {
     color: blue;
@@ -105,29 +110,36 @@
 }
 .ground
 {
-    width: 90%;
-    height: 30%;
-    margin-left: 60%;
-    margin-right: 5%;
-    text-align: justify;
+    flex-basis: 40%;
+    // text-align: justify;
     font-family:  'Slabo 27px', serif;
-    top: 150%;
-}
-.image
-{
-    background-image: url("../../assets/images/output-onlinepngtools\ \(3\).png");
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+.text
+{
+    font-size: 150%;
+    align-self: center;
+    height: 80%;
+    width: 90%;
+}
+.image
+{
+    background-image: url("../../assets/images/bombay.png");
     background-size: 100% 100%;
-    background-position: left;
-    color: transparent;
-    width: 50%;
-    height: 90%;
-    padding-bottom: 15px;
-    padding-top: 30px;
-    top: 100%;
-    margin-left: 5%;
+    width: 80%;
+    height: 80%;
+    // margin: 10% 10%;
+    align-self: center;
+}
+.wrapper
+{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 .saaho
@@ -138,6 +150,8 @@
     justify-content: center;
     background-color: white;
     color: transparent;
-    height:90%;
-    width:100%;
+    height: 40vw;
+    width: 100vw;
+    margin-top: 0%;
+    
 }
