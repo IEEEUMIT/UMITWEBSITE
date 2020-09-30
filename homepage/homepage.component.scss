@@ -16,20 +16,26 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: blue;
+    height: 40vh;
+    width: 100vw;
     
 }
 .section-title
 {
-    border-bottom: 2px solid blue;
+    // border-bottom: 2px solid blue;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;
-    margin-bottom: 70px;
-    margin-left: 5%;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    // margin-left: 5%;
     margin-right: 5%;
     text-align: center;
     color: black;
-    margin-top: 50%;
+    // margin-top: 50%;
+    background-color: white;
+    // height: 40vh;
+    width: 100%;
+    margin-bottom: 0%;
     
 }
 .member
@@ -40,7 +46,16 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: blue;
+    background-color: white;
     
+}
+.main
+{
+    width: 100vw;
+    margin-bottom: 0%;
+    background-color: white;
+    
+
 }
 .section-member
 {
@@ -53,20 +68,37 @@
     margin-right: 5%;
     color: black;
     text-align: center;
+    background-color: white;
+    height: 40vh;
+    width: 100vw;
     
 }
-.home
+// .home
+// {
+//     height: 100%;
+//     width: 100%;
+//     align-self: center;
+//     background-image: url("../../assets/images/home.PNG");
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     background-size: 100% 100%;
+//     color: transparent;
+//     top: 17%;
+//     position: absolute;
+//     image-resolution: 100%;
+// }
+.xyz
 {
-    height: 100%;
-    width: 100%;
-    align-self: center;
-    background-image: url("../../assets/images/homes.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: lightblue;
+    background-image: url("../../assets/images/home.PNG");
     background-size: 100% 100%;
-    color: transparent;
-    top: 17%;
-    position: absolute;
-    image-resolution: 100%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    // text-align: right;
+    // font-size: 500%;
+    z-index: -1;
+    overflow-y: hidden;
 }
